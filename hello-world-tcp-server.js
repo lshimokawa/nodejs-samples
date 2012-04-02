@@ -7,5 +7,5 @@ var server = net.createServer(function (socket) {
   });  
 });
 
-server.listen(7000, "localhost");
-console.log("Servidor TCP escuchando el puerto 7000 en localhost.");
+server.listen(8000, "localhost");
+console.log("Hello World TCP Server escuchando el puerto 8000 en localhost.");
