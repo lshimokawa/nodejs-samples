@@ -2,7 +2,7 @@ net = require('net');
 
 var sockets = [];
 
-var server = net.Server(function(socket) {
+var server = net.createServer(function(socket) {
   sockets.push(socket);
   
   socket.on('data', function(data){
